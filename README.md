@@ -11,7 +11,9 @@ npm install error-compass
 
 ```
 
-Usage
+## Usage
+
+```bash
 // Import the createErrorLogger function from error-compass
 import { createErrorLogger } from "error-compass";
 
@@ -23,15 +25,20 @@ try {
 // For example, accessing a property of an undefined object
 let myObject; // myObject is undefined here
 console.log(myObject.property); // This will throw the error
-} catch (error) {
+}
+catch (error) {
 // Capture and log the error using ErrorLogger
 ErrorLogger.captureError(error);
 }
 
-Features
+```
+
+## Features
+
 Simple Interface
 Customizable Options
 Error Guidance
 
-Contributing
+## Contributing
+
 Contributions are welcome! Follow the link->https://github.com/SayantanBong007/error-compass
